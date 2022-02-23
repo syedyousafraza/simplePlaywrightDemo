@@ -3,6 +3,7 @@ const { test, expect } = require('@playwright/test');
 //adding test Just to test
 
 test.beforeEach(async ({ page }) => {
+  //thi is test
   await page.goto('https://www.wikipedia.org/');
 });
 
